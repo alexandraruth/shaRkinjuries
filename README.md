@@ -20,7 +20,7 @@ Page with e-codes for "non-venomous marine animals," including sharks:
 
 ## Caveats
 + E-codes are not always complete because cause of injury may not be fully or correctly ascribed at the time of admission or discharge
-^some more info: https://injuryprevention.bmj.com/content/early/2024/06/21/ip-2023-045164.abstract
++ ^some more info: https://injuryprevention.bmj.com/content/early/2024/06/21/ip-2023-045164.abstract
 
 ## Additional caveats
 + (I am neither a shark expert nor a shark-related injury expert.)
