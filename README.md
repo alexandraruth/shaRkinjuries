@@ -1,6 +1,6 @@
 # shaRkinjuries
 
-In light of the 50th anniversary of the amazing movie JAWS, this is a quick code snippet that I adapted from a different project to search for and filter out rows of claims data that indicate a shark-related injury based on ICD codes.
+In light of all the coverage of the 50th anniversary of the movie JAWS, this is a quick code snippet that I adapted from a different project to search for and filter out rows of claims data that indicate a shark-related injury based on ICD codes.
 
 ## Additional info - shark injuries
 
@@ -8,10 +8,12 @@ According to the International Shark Attack File obtained by the Florida Museum 
 
 https://www.floridamuseum.ufl.edu/shark-attacks/yearly-worldwide-summary/
 
+As you can see, unlike JAWS would have you believe, shark attacks - though terrifying - are exceedingly rare.
+
 ## Additional info - e-codes in claims data
 
 Injury codes are included as e-codes in claims data (external cause of injury). 
-Note: ICD e-codes includes ALL shark-related injuries, not just shark "bites." So, in theory, if someone gets thwacked by a shark's tail and sustains an injury, that is included, though I cannot speak to the frequency of this occurring...
+Note: ICD e-codes includes ALL shark-related injuries, not just shark "bites."
 
 Browsing tool from CDC:
 + https://www.cdc.gov/nchs/icd/icd-10-cm/index.html
