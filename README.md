@@ -4,13 +4,14 @@ In light of the 50th anniversary of the amazing movie JAWS, this is a quick code
 
 ## Additional info - shark injuries
 
-According to the International Shark Attack File obtained by the Florida Museum of Natural History, there were 28 unprovoked shark bites in 2024, with the highest concentration in Florida:
+According to the International Shark Attack File obtained by the Florida Museum of Natural History, there were 28 unprovoked shark bites in the U.S. 2024, with the highest concentration in Florida:
 
 https://www.floridamuseum.ufl.edu/shark-attacks/yearly-worldwide-summary/
 
 ## Additional info - e-codes in claims data
 
-Injury codes are included as e-codes in claims data (external cause of injury). Note that ICD includes ALL shark-related injuries, not just shark "bites."
+Injury codes are included as e-codes in claims data (external cause of injury). 
+Note: ICD e-codes includes ALL shark-related injuries, not just shark "bites." So if someone gets thwacked by a shark and sustains an injury, that is included.
 
 Browsing tool from CDC:
 + https://www.cdc.gov/nchs/icd/icd-10-cm/index.html
