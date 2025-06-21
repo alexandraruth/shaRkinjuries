@@ -11,7 +11,7 @@ https://www.floridamuseum.ufl.edu/shark-attacks/yearly-worldwide-summary/
 ## Additional info - e-codes in claims data
 
 Injury codes are included as e-codes in claims data (external cause of injury). 
-Note: ICD e-codes includes ALL shark-related injuries, not just shark "bites." So if someone gets thwacked by a shark and sustains an injury, that is included.
+Note: ICD e-codes includes ALL shark-related injuries, not just shark "bites." So, in theory, if someone gets thwacked by a shark's tail and sustains an injury, that is included, though I cannot speak to the frequency of this occurring...
 
 Browsing tool from CDC:
 + https://www.cdc.gov/nchs/icd/icd-10-cm/index.html
