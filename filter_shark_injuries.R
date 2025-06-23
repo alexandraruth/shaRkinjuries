@@ -4,29 +4,29 @@
 library(data.table)
 
 # store icd code
-shark_icd_code <- "W56.4" # from ICD10: 
+shark_icd_code <- "W56.4" # from ICD10: https://www.icd10data.com/ICD10CM/Codes/V00-Y99/W50-W64/W56-
 
-# Function to return rows containing any instance of shark injury code
+# function to return rows containing any instance of shark injury e-code string
 
 filter_shark_injuries <- function(df, shark_icd_code) {
   
-  # Convert to data.table for efficiency
+  # convert to data.table for efficiency
   dt <- as.data.table(df)
   
-  # Create a logical vector indicating rows that contain the shark-related ICD code
+  # create a logical vector indicating rows that contain the shark-related ICD code
   rows_with_shark_code <- dt[, Reduce(`|`, lapply(.SD, function(x) grepl(shark_icd_code, x, fixed = TRUE))), .SDcols = names(dt)]
   
-  # Filter the data.table to return only the rows that contain the search string
+  # filter the data.table to return only the rows that contain the search string
   result <- dt[rows_with_shark_code]
   
-  # Convert back to data.frame if needed
+  # convert back to data.frame 
   return(as.data.frame(result))
   
 }
 
 
 
-# Example usage:
+# Example:
 
 # Create a sample data.frame
 
